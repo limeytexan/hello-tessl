@@ -1,0 +1,15 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "hook": {},
+    "profile": {},
+    "options": {},
+    "build": {
+      "hello-tessl": {
+        "command": "  mkdir -p $out/bin\n  echo 'echo \"Hello, Tessl!\"' > $out/bin/hello-tessl\n  chmod +x $out/bin/hello-tessl\n"
+      }
+    }
+  },
+  "packages": []
+}
